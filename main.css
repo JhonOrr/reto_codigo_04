@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 *{
     margin:0;
     padding: 0;
 }
-.body{
-    background-color: #e5e5e5;
+
+
+body{
+    background-color: #ffffff;
+    width: 963px;
+    margin: auto;
 }
 .menu{
     list-style: none;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 385px;
     align-items: center;
     
@@ -23,7 +27,7 @@
     font-weight: 500;
 }
 header{
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 nav{
     display: flex;
@@ -32,13 +36,91 @@ nav{
 }
 main{
     padding: 60px 18px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
-.perfil{
+.foto-perfil{
     border-radius: 50%;
     background-color: #d1ffa2;
     width: 326px;
     height: 326px;
     display: flex;
     align-items: center;
+}
+.download-cv{
+    background-color: #6d0aD3;
+    width: 163px;
+    height: 44px;
+    font-family: 'Raleway', sans-serif;
+    color: #ede2fa;
+    font-weight: 700;
+    font-size : 13px;
+    border: none;
+}
+.about-me{
+    display: flex;
+    /* border: 1px solid black; */
+    padding : 0 55px;
+    justify-content: space-between;
+
+}       
+.perfil{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.perfil-info{
+    width: 100%;
+}
+.job{
+    color: #00cf95;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    width: 430px;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    color: #262626;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 32px;
+    
+}
+.greeting{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+
+}
+.perfil-info p{
+    border-left: 4px solid #80e7ca;
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #262626;
+    line-height: 24px;
+    font-weight: 600;
+    width: 352px;
+    margin: 16px 0 32px 0;
+}
+.social-icons{
+    list-style: none;
+    display: flex;
+}
+.extra-info{
+    display: flex;
+    justify-content: space-between;
+    width: 352px ;
+    /* border: 2px solid blue; */
+}
+.extra-info ul{
+    display: flex;
+    /* border: 1px solid blue; */
+    align-items: center;
+    width: 50%;
+}
+.extra-info ul li{
+    margin: auto;
 }
