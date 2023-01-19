@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 *{
     margin:0;
     padding: 0;
 }
-
-
 body{
     background-color: #ffffff;
     width: 963px;
@@ -32,10 +30,10 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 18px;
+    padding: 18px 0;
 }
 main{
-    padding: 60px 18px;
+    padding: 60px 0;
     /* border: 2px solid black; */
 }
 .foto-perfil{
@@ -56,16 +54,36 @@ main{
     font-size : 13px;
     border: none;
 }
+.arrow{
+    /* border: 2px solid blue; */
+    padding: 25px ;
+}
+.arrow-down{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* border: 2px solid black; */
+
+}
+.arrow-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #00cf95;
+    font-weight: 600;
+    text-align: center;
+}
 .about-me{
     display: flex;
     /* border: 1px solid black; */
-    padding : 0 55px;
+    padding : 0 0 0 36px;
     justify-content: space-between;
 
 }       
 .perfil{
     /* border: 1px solid black; */
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .perfil-info{
     width: 100%;
@@ -84,7 +102,6 @@ main{
     font-weight: 700;
     line-height: 60px;
     font-size: 32px;
-    
 }
 .greeting{
     font-family: 'Poppins', sans-serif;
@@ -123,4 +140,99 @@ main{
 }
 .extra-info ul li{
     margin: auto;
+}
+
+.social-status{
+    width: auto;
+    /* border: 2px solid aqua; */
+    box-sizing: border-box; 
+}
+
+
+/* .portfolio{
+    margin: 50px auto;
+    border: 2px solid aqua;
+} */
+.portfolio-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio > *{
+    margin: 22px auto;
+}
+.subtitulo{
+    color: #0098EF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 35px;
+    /* border: 3px solid black; */
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid aqua; */
+}
+.boxes > div{
+    width: 308px;
+    height: 218px;
+    background: #00cf95;
+    /* border: 4px solid #d1ffa2; */
+    margin: 9px 10px;
+    position: relative;
+}
+.boxes > div > img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.services{
+    margin: 50px auto;
+
+}
+.etiqueta{
+    width: 224px;
+    height: 48px;
+    position: absolute ;
+    bottom: 20px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 20px 0 0;
+    color: #5a0be0;
+    font-size: 24px;
+    font-weight: 500;
+    background: #d1ffa2;
+    border-radius: 8px 0 0 8px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.blog-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    gap: 20px 20px;
+}
+
+.css-animations h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    border-left: 4px solid #c4c4c4;
+    padding-left: 4px;
+    margin-bottom: 13px;
+}
+
+.css-animations p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.css-animations p a{
+    color: #5a0cb0;
+    font-weight: 700;
 }
